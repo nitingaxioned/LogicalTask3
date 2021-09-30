@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>logical Task 3</title>
   <!-- View-port Basics: http://mzl.la/VYREaP -->
   <!-- This meta tag is used for mobile device to display the page without any zooming,
        so how much the device is able to fit on the screen is what's shown initially. 
@@ -24,18 +24,82 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+      <p class="title" > Task 3 </p>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <h3>Print all possible words from phone number digits.</h3>
+      <div class="number">
+        <ul class="num-row">
+          <li class="num-box">
+            <p>1</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>2</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>3</p>
+            <span></span>
+          </li>
+        </ul>
+        <ul class="num-row">
+          <li class="num-box">
+            <p>4</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>5</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>6</p>
+            <span></span>
+          </li>
+        </ul>
+        <ul class="num-row">
+          <li class="num-box">
+            <p>7</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>8</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>9</p>
+            <span></span>
+          </li>
+        </ul>
+        <ul class="num-row">
+          <li class="num-box">
+            <p>0</p>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+      <form>
+        <div class="form-group">
+          <label>Enter any Combination of Number</label>
+          <span id="error">&nbsp;</span>
+          <input type="text" placeholder="Enter Number here..."  id="numb">
+        </div>
+        <div class="form-control">
+          <input type="button" value="Find" id="btn" onclick="validate()">
+          <input type="reset" value="Clear" id="reset" onclick="reclear()">
+        </div>
+      </form>
+      <div class="output" >
+        <p id="output-txt">&nbsp;</p>
+      </div>
     </main>
     <!--main section end-->
 
     <!--footer section start-->
     <footer>      
-
+      <p>Createb by NDG</p>
     </footer>
     <!--footer section end-->
 
