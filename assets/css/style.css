@@ -134,6 +134,7 @@ main{
   background-color: #f2f2f2;
   padding: 20px;
   margin-bottom: 25px;
+  max-width: 1350px;
 }
 
 h3{
@@ -220,9 +221,20 @@ label{
 
 
 
+footer{
+  text-align: center;
+  color: #4f4b4c;
+  font-size: 12px;
+  background-color: #45a049;
+  padding: 5px;
+  max-width: 1350px;
+  margin: auto;
+}
 
-
-
+#output-txt{
+  color: #4f4b4c;
+  font-size: 14px;
+}
 
  /*=================================
   footer styling ends here
