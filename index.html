@@ -29,7 +29,71 @@
     <!--header section start-->
     <!--main section start-->
     <main>
-      
+      <h3>Print all possible words from phone number digits.</h3>
+      <div class="number">
+        <ul class="num-row">
+          <li class="num-box">
+            <p>1</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>2</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>3</p>
+            <span></span>
+          </li>
+        </ul>
+        <ul class="num-row">
+          <li class="num-box">
+            <p>4</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>5</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>6</p>
+            <span></span>
+          </li>
+        </ul>
+        <ul class="num-row">
+          <li class="num-box">
+            <p>7</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>8</p>
+            <span></span>
+          </li>
+          <li class="num-box">
+            <p>9</p>
+            <span></span>
+          </li>
+        </ul>
+        <ul class="num-row">
+          <li class="num-box">
+            <p>0</p>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+      <form>
+        <div class="form-group">
+          <label>Enter any Combination of Number</label>
+          <span id="error">&nbsp;</span>
+          <input type="text" placeholder="Enter Number here..."  id="numb">
+        </div>
+        <div class="form-control">
+          <input type="button" value="Find" id="btn" onclick="validate()">
+          <input type="reset" value="Clear" id="reset" onclick="reclear()">
+        </div>
+      </form>
+      <div class="output" >
+        <p id="output-txt">&nbsp;</p>
+      </div>
     </main>
     <!--main section end-->
 
