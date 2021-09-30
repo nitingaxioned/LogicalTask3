@@ -108,7 +108,14 @@ li {
 =================================*/
 
 
-
+.title{
+  text-align: center;
+  font-size: 25px;
+  color: #45a049;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 20px;
+}
 
 
 
