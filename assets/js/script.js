@@ -9,13 +9,20 @@ function validate(){
     n = parseInt( document.getElementById("numb").value );
     if(n>=0){
         strArrayOfnum(n.toString(), 0, "" );
-        document.getElementById("output-txt").innerHTML ="Output:- <br><br>"+ansArray;
+        outpt();
         ansArray=[];
-        console.log(ansArray);
     }
     else{
         document.getElementById("error").innerHTML = "Error : "+document.getElementById("numb").value+" is not a Natural Number";
     }
+}
+
+function outpt(){
+    let outstr="";
+    for(let val of ansArray){
+        outstr= outstr+val+", ";
+    }
+    document.getElementById("output-txt").innerHTML ="Output:- <br><br>"+outstr;
 }
 
 function reclear(){
